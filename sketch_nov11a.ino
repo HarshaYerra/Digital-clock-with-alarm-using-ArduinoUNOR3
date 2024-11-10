@@ -31,10 +31,6 @@ void setup() {
   starttime = millis() / 1000;  // Records the start time in seconds since the program started
 }
 
-Main Loop
-
-The loop() function constantly checks for button inputs to set the time, alarm, and manage the alarm tone.
-
 void loop()
 {
   // Check if alarm mode button (pin 8) is pressed
