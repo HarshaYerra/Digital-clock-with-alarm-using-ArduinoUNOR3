@@ -128,12 +128,3 @@ void loop()
   Serial.println(starttime);
   Serial.println("");
 }
-
-Summary
-
-	•	Time and Alarm Setting: Pins 10 and 11 are used to increment hours and minutes in both time and alarm modes.
-	•	Display Formatting: Leading zeroes ensure consistent formatting for single-digit hours and minutes.
-	•	Alarm Activation: When the current time matches the alarm time, an alarm tone plays on pin 9.
-	•	Debugging: Time values are printed to the serial monitor to track the current time and alarm time for troubleshooting.
-
-This code functions as a basic clock with an alarm system, using an LCD for display and serial output for debugging.
